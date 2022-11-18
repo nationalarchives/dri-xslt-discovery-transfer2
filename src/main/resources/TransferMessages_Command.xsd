@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation>
+      Created by WL at Tue Apr 24 12:00:00 GMT 2012 Version 1.0
+    </xs:documentation>
+  </xs:annotation>
+
+  <xs:import schemaLocation="dcterms-attributes.xsd" namespace="http://purl.org/dc/terms/"/>
+
+  <xs:element name="CorporateName" nillable="true" type="CorporateName"/>
+  <xs:complexType name="CorporateName">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Corporate_Body_Name_Text" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="dateStrType">
+    <xs:annotation>
+      <xs:documentation> defines date in format YYYYMMDD </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{8}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="dateIntType">
+    <xs:annotation>
+      <xs:documentation> defines date in format YYYYMMDD </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:int">
+      <xs:totalDigits value="8"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="InformationAsset">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="IAID" type="xs:string"/>
+      <xs:element minOccurs="1" maxOccurs="1" name="SourceLevelId" type="xs:int"/>
+      <xs:element minOccurs="1" maxOccurs="1" name="ParentIAID" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Reference" type="xs:string"/>
+      <xs:element minOccurs="1" maxOccurs="1" name="CatalogueId" type="xs:int"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Language" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="LegalStatus" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="FormerReferenceDep" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="FormerReferencePro" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Title" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="MapDesignation" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="CreatorName" type="ArrayOfCreatorName"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="CoveringDates" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="PhysicalDescriptionExtent" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="PhysicalDescriptionForm" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Dimensions" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="MapScaleNumber" type="xs:int"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="PhysicalCondition" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="HeldBy" type="ArrayOfHeldBy"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Note" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="AccessConditions" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ClosureType" type="ClosureType"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ClosureCode" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="RecordOpeningDate" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ClosureStatus" type="ClosureStatus"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="RestrictionOnUse" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ImmediateSourceOfAcquisition"
+        type="ArrayOfImmediateSourceOfAcquisition"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="CustodialHistory" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="AccumulationDates" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="AppraisalInformation" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Accruals" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="LocationOfOriginals"
+        type="ArrayOfLocationOfOriginals"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="CopiesInformation"
+        type="ArrayOfCopiesInformation"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ScopeContent" type="ScopeContent"/>
+      <xs:element minOccurs="0" maxOccurs="1" ref="RelatedMaterials"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="SeparatedMaterials"
+                  type="ArrayOfSeparatedMaterial"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Arrangement" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="PublicationNote" type="ArrayOfPublicationNote"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="UnpublishedFindingAids"
+        type="ArrayOfUnpublishedFindingAid"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="AdministrativeBackground" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="CorporateNames" type="ArrayOfCorporateName"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="PersonalNames" type="ArrayOfPerson"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Places" type="ArrayOfPlace"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Subjects" type="ArrayOfSubject"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="BatchId" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="CoveringFromDate" type="dateStrType"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="CoveringToDate" type="dateStrType"/>
+      <xs:element minOccurs="1" maxOccurs="1" name="LiveFlag" default="0">
+        <xs:annotation>
+          <xs:documentation> 0 means live; values 1,2,3 not used at the moment </xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:int">
+            <xs:pattern value="[0-3]"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="Digitized" type="xs:boolean"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ReplicaIdentities" type="ArrayOfReplicaIdentity"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Tag" type="ArrayOfString"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ArrayOfCreatorName">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CreatorName" nillable="true"
+        type="CreatorName"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CreatorName">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Corporate_Body_Name_Text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Corporate_Body_Date_Start" type="dateIntType"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Corporate_Body_Date_End" type="dateIntType"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Surname_Text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Pretitle_Text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Forename_Text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Person_Title" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Birth_Date" type="dateIntType"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Death_Date" type="dateIntType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfHeldBy">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="HeldBy" nillable="true" type="HeldBy"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="HeldBy">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Corporate_Body_Name_Text" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfImmediateSourceOfAcquisition">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ImmediateSourceOfAcquisition"
+        nillable="true" type="ImmediateSourceOfAcquisition"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ImmediateSourceOfAcquisition">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Corporate_Body_Name_Text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Surname_Text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Pretitle_Text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Forename_Text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Person_Title" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Birth_Date" type="dateIntType"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Death_Date" type="dateIntType"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfLocationOfOriginals">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LocationOfOriginals" nillable="true"
+        type="LocationOfOriginals"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LocationOfOriginals">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Corporate_Body_Name_Text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfCopiesInformation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CopiesInformation" nillable="true"
+        type="CopiesInformation"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CopiesInformation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="DataElementDescription" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Corporate_Body_Name_Text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="CorpBodyDescription" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ScopeContent">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="PersonName" type="ArrayOfString"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="PlaceName" type="ArrayOfString"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="RefferedToDate" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Organizations" type="ArrayOfString"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Ephemera" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Occupation" type="ArrayOfString"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Schema" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <!--    <xs:complexType name="ScopeDescriptionType">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>-->
+
+  <!--  <xs:complexType name="ScopeDescriptionType">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ScopeContent" nillable="true" type="ArrayOfScopeContent"/>
+        </xs:sequence>
+      </xs:complexType>
+
+      <xs:complexType name="ArrayOfScopeContent">
+        <xs:sequence>
+          <xs:element name="language">
+            <xs:complexType>
+              <xs:simpleContent>
+                <xs:extension base="xs:string">
+                  <xs:attribute name="name" type="xs:string" use="required"/>
+                </xs:extension>
+              </xs:simpleContent>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+
+      <xs:element name="language">
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute name="name" type="xs:string" use="required"/>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>-->
+
+
+  <xs:complexType name="ArrayOfString">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string"
+      />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfPublicationNote">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PublicationNote" nillable="true"
+        type="PublicationNote"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PublicationNote">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Leaflet_Title_Text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfUnpublishedFindingAid">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UnpublishedFindingAid" nillable="true"
+        type="UnpublishedFindingAid"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="UnpublishedFindingAid">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfRelatedMaterial">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RelatedMaterial" nillable="true"
+        type="RelatedMaterial"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RelatedMaterial">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="IAID" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Catalogue_ID2" type="xs:int"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Level_no2" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfSeparatedMaterial">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SeparatedMaterial" nillable="true"
+        type="SeparatedMaterial"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SeparatedMaterial">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Catalogue_ID2" type="xs:int"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Level_no2" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfCorporateName">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CorporateName" nillable="true"
+        type="CorporateName"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfPerson">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Person" nillable="true" type="Person"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Person">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Surname_Text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Pretitle_Text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Forename_Text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Person_Title" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Birth_Date" type="dateIntType"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Death_Date" type="dateIntType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfPlace">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Place" nillable="true" type="Place"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Place">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Description" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Place_Name_Text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="parish_text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="town_text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="county_text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Country_Text" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfSubject">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Subject" nillable="true" type="Subject"
+      />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Subject">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Subject_Term_Text" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfReplicaIdentity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ReplicaIdentity" nillable="true"
+        type="ReplicaIdentity"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ReplicaIdentity">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="ReplicaId" type="guid"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ReplicaPreview" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Replica">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Id" type="guid"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="RelatedToIA" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="Folios" type="ArrayOfFolio"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="WholeDocFlag" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ClosureType" type="ClosureType"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ClosureCode" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="RecordOpeningDate" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ClosureStatus" type="ClosureStatus"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfFolio">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Folio" nillable="true" type="Folio"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Folio">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="FolioId" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="DigitalFiles" type="ArrayOfDigitalFile"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="DefaultPhisicalDescription" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ClosureType" type="ClosureType"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ClosureCode" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="RecordOpeningDate" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ClosureStatus" type="ClosureStatus"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfDigitalFile">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="unbounded" name="DigitalFile" nillable="true"
+        type="DigitalFile"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DigitalFile">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="DigitalFileName" >
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute name="originalName" type="xs:string"/>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="DigitalFileRef">
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:anyAttribute namespace="http://purl.org/dc/terms/"/>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="DigitalFilePartNumber" type="xs:int"/>
+      <xs:element minOccurs="1" maxOccurs="1" name="DigitalFileSize" type="xs:int">
+        <xs:annotation>
+          <xs:documentation> defines file size in KB </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="1" maxOccurs="1" name="DigitalFileNumberOfPages" type="xs:int"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="DigitalFileFormat" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="DigitalFilePUID" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DigitalFileServerLocation" type="xs:string"/>
+
+      <!-- modified 7th Aug 2014 by Rob Walpole to allow for structured directory information -->
+      <xs:element minOccurs="0" maxOccurs="1" name="DigitalFileDirectory"
+        type="digitalFileDirectoryType"/>
+      <!--<xs:element minOccurs="0" maxOccurs="1" name="DigitalFileDirectory" type="xs:string"/>-->
+
+      <xs:element minOccurs="0" maxOccurs="1" name="ClosureType" type="ClosureType"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ClosureCode" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="RecordOpeningDate" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="ClosureStatus" type="ClosureStatus"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SeparatedMaterial" nillable="true" type="SeparatedMaterial"/>
+  <xs:element name="AccessCondition" nillable="true" type="AccessCondition"/>
+  <xs:complexType name="AccessCondition">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="access_condition_text" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Replica" nillable="true" type="Replica"/>
+
+  <xs:element name="PublicationNote" nillable="true" type="PublicationNote"/>
+  <xs:element name="DigitalFile" nillable="true" type="DigitalFile"/>
+  <xs:element name="Subject" nillable="true" type="Subject"/>
+  <xs:element name="ImmediateSourceOfAcquisition" nillable="true"
+    type="ImmediateSourceOfAcquisition"/>
+  <xs:element name="CopiesInformation" nillable="true" type="CopiesInformation"/>
+  <xs:element name="InformationAsset" nillable="true" type="InformationAsset"/>
+  <xs:element name="AccessRegulation" nillable="true" type="AccessRegulation"/>
+  <xs:element name="RelatedMaterials" nillable="true" type="ArrayOfRelatedMaterial"/>
+  <xs:element name="Place" nillable="true" type="Place"/>
+  <xs:element name="HeldBy" nillable="true" type="HeldBy"/>
+  <xs:element name="UnpublishedFindingAid" nillable="true" type="UnpublishedFindingAid"/>
+  <xs:element name="Person" nillable="true" type="Person"/>
+  <xs:element name="Folio" nillable="true" type="Folio"/>
+  <xs:element name="ReplicaIdentity" nillable="true" type="ReplicaIdentity"/>
+  <xs:element name="CreatorName" nillable="true" type="CreatorName"/>
+  <xs:element name="LocationOfOriginals" nillable="true" type="LocationOfOriginals"/>
+  <xs:element name="ScopeContent" nillable="true" type="ScopeContent"/>
+  <xs:simpleType name="guid">
+    <xs:restriction base="xs:string">
+      <xs:pattern
+        value="[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="CommandMessage">
+    <xs:complexType>
+      <xs:all>
+        <xs:element ref="TransferId"/>
+        <xs:element ref="CommandName"/>
+        <xs:element ref="InformationAsset" minOccurs="0" maxOccurs="1"/>
+        <xs:element ref="Replica" minOccurs="0" maxOccurs="1"/>
+        <xs:element ref="CommandParameters"/>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CommandParameters">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="item"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="item">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="key"/>
+        <xs:element ref="value"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="value">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="string" type="xs:string"/>
+  <xs:element name="key">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="CommandName">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="TransferIA"/>
+        <xs:enumeration value="TransferRE"/>
+        <xs:enumeration value="TransferSAR"/>
+        <xs:enumeration value="TransferStart"/>
+        <xs:enumeration value="TransferEnd"/>
+        <xs:enumeration value="Publish"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="TransferId" type="xs:string"/>
+  <xs:simpleType name="ClosureType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="A">
+        <xs:annotation>
+          <xs:documentation>Open on Transfer</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="C">
+        <xs:annotation>
+          <xs:documentation>Closed, for review in</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="D">
+        <xs:annotation>
+          <xs:documentation>Retained Until</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="F">
+        <xs:annotation>
+          <xs:documentation>Closed For</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="I">
+        <xs:annotation>
+          <xs:documentation>Open Immediately</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="N">
+        <xs:annotation>
+          <xs:documentation>Normal Closure before FOI Act</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="R">
+        <xs:annotation>
+          <xs:documentation>Retained by Department</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="S">
+        <xs:annotation>
+          <xs:documentation>Retained by Department under Section 3.4</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="T">
+        <xs:annotation>
+          <xs:documentation>Temporarily Retained by Department</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="U">
+        <xs:annotation>
+          <xs:documentation>Closed Until</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="V">
+        <xs:annotation>
+          <xs:documentation>Closed whilst access is reviewed</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="W">
+        <xs:annotation>
+          <xs:documentation>Reclosed in</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="X">
+        <xs:annotation>
+          <xs:documentation>Unknown / Unspecified</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ClosureStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="C">
+        <xs:annotation>
+          <xs:documentation>Closed Or Retained Document, Closed Description</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="D">
+        <xs:annotation>
+          <xs:documentation>Closed Or Retained Document, Open Description</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="O">
+        <xs:annotation>
+          <xs:documentation>Open Document, Open Description</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="digitalFileDirectoryType">
+    <xs:sequence>
+      <xs:element name="Folder" minOccurs="1" maxOccurs="unbounded" type="folderType"/>
+    </xs:sequence>
+    <xs:attribute name="completePath"/>
+  </xs:complexType>
+  <xs:complexType name="folderType">
+    <xs:sequence>
+      <xs:element name="Label" minOccurs="1" maxOccurs="1" type="xs:string"/>
+      <xs:element name="ID" minOccurs="1" maxOccurs="1" type="xs:string"/>
+      <xs:element name="ParentID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- SAR project -->
+  <xs:complexType name="AccessRegulation">
+    <xs:sequence>
+      <xs:element name="RelatedToIA" minOccurs="1" maxOccurs="1" type="xs:string"/>
+      <xs:element name="ClosureCriterions" minOccurs="1" maxOccurs="1" type="ClosureCriterion"/>
+      <xs:element name="SignedDate" minOccurs="1" maxOccurs="1" type="xs:string"/>
+      <xs:element name="ReviewDate" minOccurs="1" maxOccurs="1" type="xs:string"/>
+      <xs:element name="ReconsiderDueInDate" minOccurs="1" maxOccurs="1" type="xs:string"/>
+      <xs:element name="Explanation" minOccurs="1" maxOccurs="1" type="xs:string"/>
+      <xs:element name="ProcatTitle" minOccurs="1" maxOccurs="1" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ClosureCriterion">
+    <xs:sequence>
+      <xs:element name="ClosureCriterion" minOccurs="1" maxOccurs="unbounded"
+        type="ClosureCriterionType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ClosureCriterionType">
+    <xs:sequence>
+      <xs:element name="ExemptionCodeId" minOccurs="1" maxOccurs="1" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!--    <xs:complexType name="ProcatTitleChoice">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="Closure" type="xs:string"/>
+            <xs:element minOccurs="0" maxOccurs="1" name="Retained" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+-->
+
+  <xs:simpleType name="ProcatTitleChoice">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Closure">
+        <xs:annotation>
+          <xs:documentation>Closed document</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Retained">
+        <xs:annotation>
+          <xs:documentation>Retained</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+
+
+</xs:schema>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Directories xmlns="http://nationalarchives.gov.uk/dri/catalogue/api">
+    <Directory>
+        <Label>WO 95/16/2</Label>
+        <ID>4a10c7e5-c653-4e91-a390-939103a0cf78</ID>
+        <ParentID>7db88a18-6e43-41e0-ada5-f402fd3e37da</ParentID>
+    </Directory>
+    <Directory>
+        <Label>WO 95/39/2</Label>
+        <ID>4c1d07cb-f26e-437f-b348-625a3c8006d4</ID>
+        <ParentID>b5044f81-e7e6-45c6-9bfc-02ba9bf1ee6a</ParentID>
+    </Directory>
+    <Directory>
+        <Label>WO 95/39</Label>
+        <ID>b5044f81-e7e6-45c6-9bfc-02ba9bf1ee6a</ID>
+        <ParentID>d788e9b2-4ec0-41a5-ad99-ba13654360e5</ParentID>
+    </Directory>
+    <Directory>
+        <Label>WO 95/39/1</Label>
+        <ID>8edaea68-fb88-4b39-8c4b-c95b01b244dd</ID>
+        <ParentID>b5044f81-e7e6-45c6-9bfc-02ba9bf1ee6a</ParentID>
+    </Directory>
+    <Directory>
+        <Label>WO 95/16/1</Label>
+        <ID>161b0efb-6e85-4ac9-b20d-84623d081626</ID>
+        <ParentID>7db88a18-6e43-41e0-ada5-f402fd3e37da</ParentID>
+    </Directory>
+    <Directory>
+        <Label>AID001035V001</Label>
+        <ID>7db88a18-6e43-41e0-ada5-f402fd3e37da</ID>
+        <ParentID>d788e9b2-4ec0-41a5-ad99-ba13654360e5</ParentID>
+    </Directory>
+    <Directory>
+        <Label>ILB 2</Label>
+        <CuratedLabel>ILB2</CuratedLabel>
+        <ID>d788e9b2-4ec0-41a5-ad99-ba13654360e5</ID>
+    </Directory>
+    <Directory>
+        <Label>ILB 2/Metropolitan Police Service reports</Label>
+        <CuratedLabel>Better folder name</CuratedLabel>
+        <AlternateLabel>Alternate label</AlternateLabel>
+        <ID>d788e9y2-4ec0-41a5-ad99-ba13654360e5</ID>
+    </Directory>
+    <Directory>
+        <Label>ILB 2/Evil penguins</Label>
+        <CuratedLabel>ILB 2/Evil birds</CuratedLabel>
+        <ID>d788euu2-4ec0-41a5-ad99-ba13654360e5</ID>
+    </Directory>
+</Directories>

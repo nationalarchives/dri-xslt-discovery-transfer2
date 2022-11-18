@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    
+    <xs:include schemaLocation="TransferMessages_Command.xsd"/>
+    
+    <xs:element name="BIA" type="BIAType"/>
+    <xs:complexType name="BIAType">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element ref="InformationAsset" maxOccurs="unbounded"/>
+            <xs:element ref="AccessRegulation" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="Replica" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>    
+    
+</xs:schema>

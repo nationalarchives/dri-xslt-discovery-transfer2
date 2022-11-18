@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XIP xmlns="http://www.tessella.com/XIP/v4"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Collections>
+      <Collection status="same">
+         <CollectionRef>b6071dec-d9a2-4aba-b8b7-9d1f165793c5</CollectionRef>
+         <CollectionTypeRef>1</CollectionTypeRef>
+         <CollectionCode>FOCOM</CollectionCode>
+         <Title>Records+of+the+Foreign+and+Commonwealth+Office</Title>
+         <SecurityTag>BornDigital</SecurityTag>
+      </Collection>
+   </Collections>
+   <Aggregations>
+      <Accumulation status="same">
+         <AccumulationRef>121501ef-d9ca-44f1-b35e-1e25d0980ba9</AccumulationRef>
+         <CollectionRef>b6071dec-d9a2-4aba-b8b7-9d1f165793c5</CollectionRef>
+      </Accumulation>
+      <Accession status="same">
+         <AccessionRef>c813f3ea-499d-4b80-b9b2-bff5e4ebf9c0</AccessionRef>
+         <AccumulationRef>121501ef-d9ca-44f1-b35e-1e25d0980ba9</AccumulationRef>
+         <IngestedFileSetRef>cbd51929-b075-40ba-8f11-cbeca624ca68</IngestedFileSetRef>
+         <Date>2022-05-05T09:10:05.625+01:00</Date>
+      </Accession>
+   </Aggregations>
+   <DeliverableUnits>
+      <DeliverableUnit status="same">
+         <DeliverableUnitRef>883dc485-4e20-46e0-b79a-57779e7957e0</DeliverableUnitRef>
+         <CollectionRef>b6071dec-d9a2-4aba-b8b7-9d1f165793c5</CollectionRef>
+         <AccessionRef>c813f3ea-499d-4b80-b9b2-bff5e4ebf9c0</AccessionRef>
+         <AccumulationRef>121501ef-d9ca-44f1-b35e-1e25d0980ba9</AccumulationRef>
+         <ParentRef>71937a58-8f72-47f4-a6e2-35b7b31c0b8c</ParentRef>
+         <DigitalSurrogate>false</DigitalSurrogate>
+         <CatalogueReference>FCO/37/TQM/Z</CatalogueReference>
+         <ScopeAndContent>FS</ScopeAndContent>
+         <CoverageFrom>2022-05-05T09:04:16.000+01:00</CoverageFrom>
+         <CoverageTo>2022-05-05T09:04:18.000+01:00</CoverageTo>
+         <Title>FS</Title>
+         <TypeRef>1</TypeRef>
+         <SecurityTag>BornDigital</SecurityTag>
+         <Metadata schemaURI="http://nationalarchives.gov.uk/metadata/tna#">
+            <tna:metadata xmlns:tna="http://nationalarchives.gov.uk/metadata/tna#"
+                          xmlns:ead="urn:isbn:1-931666-22-9">
+               <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  <tna:DigitalFolder rdf:about="http://datagov.nationalarchives.gov.uk/66/FCO/37/TQM/Z">
+                     <tna:cataloguing>
+                        <tna:Cataloguing>
+                           <tna:collectionIdentifier rdf:datatype="xs:string">FOCOM</tna:collectionIdentifier>
+                           <tna:batchIdentifier rdf:datatype="xs:string">FCO37Y21HB002</tna:batchIdentifier>
+                           <tna:departmentIdentifier rdf:datatype="xs:string">FCO</tna:departmentIdentifier>
+                           <tna:seriesIdentifier rdf:datatype="xs:string">37</tna:seriesIdentifier>
+                           <tna:pieceIdentifier rdf:datatype="xs:string">TQM</tna:pieceIdentifier>
+                           <tna:parentIdentifier rdf:datatype="xs:string">71937a58-8f72-47f4-a6e2-35b7b31c0b8c</tna:parentIdentifier>
+                           <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">FS</dcterms:title>
+                           <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/"
+                                            rdf:resource="Foreign_and_Commonwealth_Office"/>
+                           <dcterms:rights xmlns:dcterms="http://purl.org/dc/terms/"
+                                           rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Crown_copyright"/>
+                           <tna:legalStatus rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Public_Record(s)"/>
+                           <tna:heldBy rdf:datatype="xs:string">The National Archives, Kew</tna:heldBy>
+                           <tna:session_date rdf:datatype="xs:string"/>
+                     
+                        
+                        </tna:Cataloguing>
+                  
+                     
+                     </tna:cataloguing>
+                     <tna:digitalFile>
+                        <tna:DigitalFile>
+                           <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/" rdf:datatype="xs:dateTime">2021-12-15T11:01:17</dcterms:modified>
+                           <tna:filePathAndName rdf:datatype="xs:string">FCO%2037/FS</tna:filePathAndName>
+                     
+                        
+                        </tna:DigitalFile>
+                  
+                     
+                     </tna:digitalFile>
+               
+                  
+                  </tna:DigitalFolder>
+            
+               
+               </rdf:RDF>
+         
+            
+               <closure xmlns="http://nationalarchives.gov.uk/dri/closure"
+                        resourceType="DeliverableUnit">
+                  <uuid>883dc485-4e20-46e0-b79a-57779e7957e0</uuid>
+                  <documentClosureStatus>OPEN</documentClosureStatus>
+                  <closureType>A</closureType>
+                  <closureCode>0</closureCode>
+                  <closurePeriod>0</closurePeriod>
+                  <openingDate>2022-05-05T08:28:46.249Z</openingDate>
+                  <titleClosureStatus>OPEN</titleClosureStatus>
+               </closure>
+            </tna:metadata>
+         </Metadata>
+      </DeliverableUnit>
+      <DeliverableUnit status="same">
+         <DeliverableUnitRef>71937a58-8f72-47f4-a6e2-35b7b31c0b8c</DeliverableUnitRef>
+         <CollectionRef>b6071dec-d9a2-4aba-b8b7-9d1f165793c5</CollectionRef>
+         <AccessionRef>c813f3ea-499d-4b80-b9b2-bff5e4ebf9c0</AccessionRef>
+         <AccumulationRef>121501ef-d9ca-44f1-b35e-1e25d0980ba9</AccumulationRef>
+         <DigitalSurrogate>false</DigitalSurrogate>
+         <CatalogueReference>FCO/37/TQL/Z</CatalogueReference>
+         <ScopeAndContent>FCO 37</ScopeAndContent>
+         <CoverageFrom>2022-05-05T09:04:16.000+01:00</CoverageFrom>
+         <CoverageTo>2022-05-05T09:04:18.000+01:00</CoverageTo>
+         <Title>FCO 37</Title>
+         <TypeRef>1</TypeRef>
+         <SecurityTag>BornDigital</SecurityTag>
+         <Metadata schemaURI="http://nationalarchives.gov.uk/metadata/tna#">
+            <tna:metadata xmlns:tna="http://nationalarchives.gov.uk/metadata/tna#"
+                          xmlns:ead="urn:isbn:1-931666-22-9">
+               <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  <tna:DigitalFolder rdf:about="http://datagov.nationalarchives.gov.uk/66/FCO/37/TQL/Z">
+                     <tna:cataloguing>
+                        <tna:Cataloguing>
+                           <tna:collectionIdentifier rdf:datatype="xs:string">FOCOM</tna:collectionIdentifier>
+                           <tna:batchIdentifier rdf:datatype="xs:string">FCO37Y21HB002</tna:batchIdentifier>
+                           <tna:departmentIdentifier rdf:datatype="xs:string">FCO</tna:departmentIdentifier>
+                           <tna:seriesIdentifier rdf:datatype="xs:string">37</tna:seriesIdentifier>
+                           <tna:pieceIdentifier rdf:datatype="xs:string">TQL</tna:pieceIdentifier>
+                           <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">FCO 37</dcterms:title>
+                           <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/"
+                                            rdf:resource="Foreign_and_Commonwealth_Office"/>
+                           <dcterms:rights xmlns:dcterms="http://purl.org/dc/terms/"
+                                           rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Crown_copyright"/>
+                           <tna:legalStatus rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Public_Record(s)"/>
+                           <tna:heldBy rdf:datatype="xs:string">The National Archives, Kew</tna:heldBy>
+                           <tna:session_date rdf:datatype="xs:string"/>
+                     
+                        
+                        </tna:Cataloguing>
+                  
+                     
+                     </tna:cataloguing>
+                     <tna:digitalFile>
+                        <tna:DigitalFile>
+                           <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/" rdf:datatype="xs:dateTime">2021-12-01T14:42:00</dcterms:modified>
+                           <tna:filePathAndName rdf:datatype="xs:string">FCO%2037</tna:filePathAndName>
+                     
+                        
+                        </tna:DigitalFile>
+                  
+                     
+                     </tna:digitalFile>
+               
+                  
+                  </tna:DigitalFolder>
+            
+               
+               </rdf:RDF>
+         
+            
+               <closure xmlns="http://nationalarchives.gov.uk/dri/closure"
+                        resourceType="DeliverableUnit">
+                  <uuid>71937a58-8f72-47f4-a6e2-35b7b31c0b8c</uuid>
+                  <documentClosureStatus>OPEN</documentClosureStatus>
+                  <closureType>A</closureType>
+                  <closureCode>0</closureCode>
+                  <closurePeriod>0</closurePeriod>
+                  <openingDate>2022-05-05T08:28:46.249Z</openingDate>
+                  <titleClosureStatus>OPEN</titleClosureStatus>
+               </closure>
+            </tna:metadata>
+         </Metadata>
+      </DeliverableUnit>
+      <DeliverableUnit status="same">
+         <DeliverableUnitRef>c7a9b67d-c8f2-44b2-ade9-5d6dce8d7c77</DeliverableUnitRef>
+         <CollectionRef>b6071dec-d9a2-4aba-b8b7-9d1f165793c5</CollectionRef>
+         <AccessionRef>c813f3ea-499d-4b80-b9b2-bff5e4ebf9c0</AccessionRef>
+         <AccumulationRef>121501ef-d9ca-44f1-b35e-1e25d0980ba9</AccumulationRef>
+         <ParentRef>0ae00e7a-65ef-44ee-97ab-87a08cb4e25e</ParentRef>
+         <DigitalSurrogate>false</DigitalSurrogate>
+         <CatalogueReference>FCO/37/TQV/Z</CatalogueReference>
+         <ScopeAndContent>P</ScopeAndContent>
+         <CoverageFrom>2022-05-05T09:04:17.000+01:00</CoverageFrom>
+         <CoverageTo>2022-05-05T09:04:17.000+01:00</CoverageTo>
+         <Title>P</Title>
+         <TypeRef>1</TypeRef>
+         <SecurityTag>BornDigital</SecurityTag>
+         <Metadata schemaURI="http://nationalarchives.gov.uk/metadata/tna#">
+            <tna:metadata xmlns:tna="http://nationalarchives.gov.uk/metadata/tna#"
+                          xmlns:ead="urn:isbn:1-931666-22-9">
+               <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  <tna:DigitalFolder rdf:about="http://datagov.nationalarchives.gov.uk/66/FCO/37/TQV/Z">
+                     <tna:cataloguing>
+                        <tna:Cataloguing>
+                           <tna:collectionIdentifier rdf:datatype="xs:string">FOCOM</tna:collectionIdentifier>
+                           <tna:batchIdentifier rdf:datatype="xs:string">FCO37Y21HB002</tna:batchIdentifier>
+                           <tna:departmentIdentifier rdf:datatype="xs:string">FCO</tna:departmentIdentifier>
+                           <tna:seriesIdentifier rdf:datatype="xs:string">37</tna:seriesIdentifier>
+                           <tna:pieceIdentifier rdf:datatype="xs:string">TQV</tna:pieceIdentifier>
+                           <tna:parentIdentifier rdf:datatype="xs:string">0ae00e7a-65ef-44ee-97ab-87a08cb4e25e</tna:parentIdentifier>
+                           <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">P</dcterms:title>
+                           <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/"
+                                            rdf:resource="Foreign_and_Commonwealth_Office"/>
+                           <dcterms:rights xmlns:dcterms="http://purl.org/dc/terms/"
+                                           rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Crown_copyright"/>
+                           <tna:legalStatus rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Public_Record(s)"/>
+                           <tna:heldBy rdf:datatype="xs:string">The National Archives, Kew</tna:heldBy>
+                           <tna:session_date rdf:datatype="xs:string"/>
+                     
+                        
+                        </tna:Cataloguing>
+                  
+                     
+                     </tna:cataloguing>
+                     <tna:digitalFile>
+                        <tna:DigitalFile>
+                           <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/" rdf:datatype="xs:dateTime">2021-12-15T11:01:16</dcterms:modified>
+                           <tna:filePathAndName rdf:datatype="xs:string">FCO%2037/FS/92/P</tna:filePathAndName>
+                     
+                        
+                        </tna:DigitalFile>
+                  
+                     
+                     </tna:digitalFile>
+               
+                  
+                  </tna:DigitalFolder>
+            
+               
+               </rdf:RDF>
+         
+            
+               <closure xmlns="http://nationalarchives.gov.uk/dri/closure"
+                        resourceType="DeliverableUnit">
+                  <uuid>c7a9b67d-c8f2-44b2-ade9-5d6dce8d7c77</uuid>
+                  <documentClosureStatus>OPEN</documentClosureStatus>
+                  <closureType>A</closureType>
+                  <closureCode>0</closureCode>
+                  <closurePeriod>0</closurePeriod>
+                  <openingDate>2022-05-05T08:28:46.249Z</openingDate>
+                  <titleClosureStatus>OPEN</titleClosureStatus>
+               </closure>
+            </tna:metadata>
+         </Metadata>
+      </DeliverableUnit>
+      <DeliverableUnit status="same">
+         <DeliverableUnitRef>aa44b4a3-dd27-4b0a-a6cc-231518c793b3</DeliverableUnitRef>
+         <CollectionRef>b6071dec-d9a2-4aba-b8b7-9d1f165793c5</CollectionRef>
+         <AccessionRef>c813f3ea-499d-4b80-b9b2-bff5e4ebf9c0</AccessionRef>
+         <AccumulationRef>121501ef-d9ca-44f1-b35e-1e25d0980ba9</AccumulationRef>
+         <ParentRef>a510aa7d-cf82-45e0-8f38-58efc553376c</ParentRef>
+         <DigitalSurrogate>false</DigitalSurrogate>
+         <CatalogueReference>FCO/37/TVS/Z</CatalogueReference>
+         <ScopeAndContent>FCO37-FSP026.105.92</ScopeAndContent>
+         <CoverageFrom>2022-05-05T09:04:17.000+01:00</CoverageFrom>
+         <CoverageTo>2022-05-05T09:04:17.000+01:00</CoverageTo>
+         <Title>FCO37-FSP026.105.92</Title>
+         <TypeRef>1</TypeRef>
+         <SecurityTag>BornDigital</SecurityTag>
+         <Metadata schemaURI="http://nationalarchives.gov.uk/metadata/tna#">
+            <tna:metadata xmlns:tna="http://nationalarchives.gov.uk/metadata/tna#"
+                          xmlns:ead="urn:isbn:1-931666-22-9">
+               <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  <tna:DigitalFolder rdf:about="http://datagov.nationalarchives.gov.uk/66/FCO/37/TVS/Z">
+                     <tna:cataloguing>
+                        <tna:Cataloguing>
+                           <tna:collectionIdentifier rdf:datatype="xs:string">FOCOM</tna:collectionIdentifier>
+                           <tna:batchIdentifier rdf:datatype="xs:string">FCO37Y21HB002</tna:batchIdentifier>
+                           <tna:departmentIdentifier rdf:datatype="xs:string">FCO</tna:departmentIdentifier>
+                           <tna:seriesIdentifier rdf:datatype="xs:string">37</tna:seriesIdentifier>
+                           <tna:pieceIdentifier rdf:datatype="xs:string">TVS</tna:pieceIdentifier>
+                           <tna:parentIdentifier rdf:datatype="xs:string">a510aa7d-cf82-45e0-8f38-58efc553376c</tna:parentIdentifier>
+                           <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">FCO37-FSP026.105.92</dcterms:title>
+                           <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/"
+                                            rdf:resource="Foreign_and_Commonwealth_Office"/>
+                           <dcterms:rights xmlns:dcterms="http://purl.org/dc/terms/"
+                                           rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Crown_copyright"/>
+                           <tna:legalStatus rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Public_Record(s)"/>
+                           <tna:heldBy rdf:datatype="xs:string">The National Archives, Kew</tna:heldBy>
+                           <tna:session_date rdf:datatype="xs:string"/>
+                     
+                        
+                        </tna:Cataloguing>
+                  
+                     
+                     </tna:cataloguing>
+                     <tna:digitalFile>
+                        <tna:DigitalFile>
+                           <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/" rdf:datatype="xs:dateTime">2021-12-15T11:01:11</dcterms:modified>
+                           <tna:filePathAndName rdf:datatype="xs:string">FCO%2037/FS/92/P/026/105/FCO37-FSP026.105.92</tna:filePathAndName>
+                     
+                        
+                        </tna:DigitalFile>
+                  
+                     
+                     </tna:digitalFile>
+               
+                  
+                  </tna:DigitalFolder>
+            
+               
+               </rdf:RDF>
+         
+            
+               <closure xmlns="http://nationalarchives.gov.uk/dri/closure"
+                        resourceType="DeliverableUnit">
+                  <uuid>aa44b4a3-dd27-4b0a-a6cc-231518c793b3</uuid>
+                  <documentClosureStatus>OPEN</documentClosureStatus>
+                  <closureType>A</closureType>
+                  <closureCode>0</closureCode>
+                  <closurePeriod>0</closurePeriod>
+                  <openingDate>2022-05-05T08:28:46.249Z</openingDate>
+                  <titleClosureStatus>OPEN</titleClosureStatus>
+               </closure>
+            </tna:metadata>
+         </Metadata>
+      </DeliverableUnit>
+      <DeliverableUnit status="same">
+         <DeliverableUnitRef>987bf7ed-69e0-4058-ac59-b307ac3bb838</DeliverableUnitRef>
+         <CollectionRef>b6071dec-d9a2-4aba-b8b7-9d1f165793c5</CollectionRef>
+         <AccessionRef>c813f3ea-499d-4b80-b9b2-bff5e4ebf9c0</AccessionRef>
+         <AccumulationRef>121501ef-d9ca-44f1-b35e-1e25d0980ba9</AccumulationRef>
+         <ParentRef>aa44b4a3-dd27-4b0a-a6cc-231518c793b3</ParentRef>
+         <DigitalSurrogate>false</DigitalSurrogate>
+         <CatalogueReference>FCO/37/TJ2/Z</CatalogueReference>
+         <ScopeAndContent>FCO37-FSP026.105.92-M0035934.doc</ScopeAndContent>
+         <CoverageFrom>2022-05-05T09:04:17.000+01:00</CoverageFrom>
+         <CoverageTo>2022-05-05T09:04:17.000+01:00</CoverageTo>
+         <Title>FCO37-FSP026.105.92-M0035934.doc</Title>
+         <TypeRef>1</TypeRef>
+         <SecurityTag>BornDigital</SecurityTag>
+         <Metadata schemaURI="http://nationalarchives.gov.uk/metadata/tna#">
+            <tna:metadata xmlns:tna="http://nationalarchives.gov.uk/metadata/tna#"
+                          xmlns:ead="urn:isbn:1-931666-22-9">
+               <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  <tna:BornDigitalRecord rdf:about="http://datagov.nationalarchives.gov.uk/66/FCO/37/TJ2/Z">
+                     <tna:cataloguing>
+                        <tna:Cataloguing>
+                           <tna:collectionIdentifier rdf:datatype="xs:string">FOCOM</tna:collectionIdentifier>
+                           <tna:batchIdentifier rdf:datatype="xs:string">FCO37Y21HB002</tna:batchIdentifier>
+                           <tna:departmentIdentifier rdf:datatype="xs:string">FCO</tna:departmentIdentifier>
+                           <tna:seriesIdentifier rdf:datatype="xs:string">37</tna:seriesIdentifier>
+                           <tna:pieceIdentifier rdf:datatype="xs:string">TJ2</tna:pieceIdentifier>
+                           <tna:parentIdentifier rdf:datatype="xs:string">aa44b4a3-dd27-4b0a-a6cc-231518c793b3</tna:parentIdentifier>
+                           <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">FCO37-FSP026.105.92-M0035934.doc</dcterms:title>
+                           <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/"
+                                            rdf:resource="Foreign_and_Commonwealth_Office"/>
+                           <tna:formerReferenceDepartment rdf:datatype="xs:string">FCO37-FSP026.105.92-M0035934</tna:formerReferenceDepartment>
+                           <dcterms:rights xmlns:dcterms="http://purl.org/dc/terms/"
+                                           rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Crown_copyright"/>
+                           <tna:legalStatus rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Public_Record(s)"/>
+                           <tna:heldBy rdf:datatype="xs:string">Retaining Office</tna:heldBy>
+                           <tna:session_date rdf:datatype="xs:string"/>
+                        </tna:Cataloguing>
+                     </tna:cataloguing>
+                     <tna:digitalFile>
+                        <tna:DigitalFile>
+                           <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/" rdf:datatype="xs:dateTime">1992-10-26T23:00:00</dcterms:modified>
+                           <tna:filePathAndName rdf:datatype="xs:string">FCO%2037/FS/92/P/026/105/FCO37-FSP026.105.92/FCO37-FSP026.105.92-M0035934.doc</tna:filePathAndName>
+                           <tna:hasRedactedFile rdf:datatype="xs:string">FCO_37/content/FS/92/P/026/105/FCO37-FSP026.105.92/FCO37-FSP026.105.92-M0035934_R1.pdf</tna:hasRedactedFile>
+                           <tna:hasRedactedFile rdf:datatype="xs:string">FCO_37/content/FS/92/P/026/105/FCO37-FSP026.105.92/FCO37-FSP026.105.92-M0035934_R2.pdf</tna:hasRedactedFile>
+                      </tna:DigitalFile>
+                    </tna:digitalFile>
+                 </tna:BornDigitalRecord>
+              </rdf:RDF>
+         
+            
+               <closure xmlns="http://nationalarchives.gov.uk/dri/closure"
+                        resourceType="DeliverableUnit">
+                  <uuid>987bf7ed-69e0-4058-ac59-b307ac3bb838</uuid>
+                  <documentClosureStatus>CLOSED</documentClosureStatus>
+                  <closureType>S</closureType>
+                  <closureCode/>
+                  <titleClosureStatus>OPEN</titleClosureStatus>
+                  <retentionJustification>6</retentionJustification>
+                  <retentionReconsiderDate>2031-12-31T00:00:00</retentionReconsiderDate>
+                  <RINumber>106</RINumber>
+               </closure>
+            </tna:metadata>
+         </Metadata>
+         <DeliverableUnitComponent status="same">
+            <ComponentRef>b8eb761d-c530-4447-af41-52fca8ec02fe</ComponentRef>
+            <ComponentType>Document</ComponentType>
+            <ComponentCreationEvent>
+               <EventDate>2022-05-05T09:26:53.513+01:00</EventDate>
+               <EventAgent>
+                  <Name>identifyFileComponents</Name>
+                  <Version>1.0</Version>
+            
+                    
+               </EventAgent>
+            </ComponentCreationEvent>
+         </DeliverableUnitComponent>
+         <DeliverableUnitComponent status="same">
+            <ComponentRef>7b6236ec-37f1-4d0f-b3aa-33d653933da4</ComponentRef>
+            <ComponentType>Document</ComponentType>
+            <ComponentCreationEvent>
+               <EventDate>2022-05-05T09:26:53.978+01:00</EventDate>
+               <EventAgent>
+                  <Name>identifyFileComponents</Name>
+                  <Version>1.0</Version>
+            
+                    
+               </EventAgent>
+            </ComponentCreationEvent>
+         </DeliverableUnitComponent>
+      </DeliverableUnit>
+      <DeliverableUnit status="same">
+         <DeliverableUnitRef>ddd8a628-eecb-4e9c-bd59-d9aaece81573</DeliverableUnitRef>
+         <CollectionRef>b6071dec-d9a2-4aba-b8b7-9d1f165793c5</CollectionRef>
+         <AccessionRef>c813f3ea-499d-4b80-b9b2-bff5e4ebf9c0</AccessionRef>
+         <AccumulationRef>121501ef-d9ca-44f1-b35e-1e25d0980ba9</AccumulationRef>
+         <ParentRef>c7a9b67d-c8f2-44b2-ade9-5d6dce8d7c77</ParentRef>
+         <DigitalSurrogate>false</DigitalSurrogate>
+         <CatalogueReference>FCO/37/TRV/Z</CatalogueReference>
+         <ScopeAndContent>026</ScopeAndContent>
+         <CoverageFrom>2022-05-05T09:04:17.000+01:00</CoverageFrom>
+         <CoverageTo>2022-05-05T09:04:17.000+01:00</CoverageTo>
+         <Title>026</Title>
+         <TypeRef>1</TypeRef>
+         <SecurityTag>BornDigital</SecurityTag>
+         <Metadata schemaURI="http://nationalarchives.gov.uk/metadata/tna#">
+            <tna:metadata xmlns:tna="http://nationalarchives.gov.uk/metadata/tna#"
+                          xmlns:ead="urn:isbn:1-931666-22-9">
+               <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  <tna:DigitalFolder rdf:about="http://datagov.nationalarchives.gov.uk/66/FCO/37/TRV/Z">
+                     <tna:cataloguing>
+                        <tna:Cataloguing>
+                           <tna:collectionIdentifier rdf:datatype="xs:string">FOCOM</tna:collectionIdentifier>
+                           <tna:batchIdentifier rdf:datatype="xs:string">FCO37Y21HB002</tna:batchIdentifier>
+                           <tna:departmentIdentifier rdf:datatype="xs:string">FCO</tna:departmentIdentifier>
+                           <tna:seriesIdentifier rdf:datatype="xs:string">37</tna:seriesIdentifier>
+                           <tna:pieceIdentifier rdf:datatype="xs:string">TRV</tna:pieceIdentifier>
+                           <tna:parentIdentifier rdf:datatype="xs:string">c7a9b67d-c8f2-44b2-ade9-5d6dce8d7c77</tna:parentIdentifier>
+                           <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">26</dcterms:title>
+                           <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/"
+                                            rdf:resource="Foreign_and_Commonwealth_Office"/>
+                           <dcterms:rights xmlns:dcterms="http://purl.org/dc/terms/"
+                                           rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Crown_copyright"/>
+                           <tna:legalStatus rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Public_Record(s)"/>
+                           <tna:heldBy rdf:datatype="xs:string">The National Archives, Kew</tna:heldBy>
+                           <tna:session_date rdf:datatype="xs:string"/>
+                     
+                        
+                        </tna:Cataloguing>
+                  
+                     
+                     </tna:cataloguing>
+                     <tna:digitalFile>
+                        <tna:DigitalFile>
+                           <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/" rdf:datatype="xs:dateTime">2021-12-15T11:01:11</dcterms:modified>
+                           <tna:filePathAndName rdf:datatype="xs:string">FCO%2037/FS/92/P/026</tna:filePathAndName>
+                     
+                        
+                        </tna:DigitalFile>
+                  
+                     
+                     </tna:digitalFile>
+               
+                  
+                  </tna:DigitalFolder>
+            
+               
+               </rdf:RDF>
+         
+            
+               <closure xmlns="http://nationalarchives.gov.uk/dri/closure"
+                        resourceType="DeliverableUnit">
+                  <uuid>ddd8a628-eecb-4e9c-bd59-d9aaece81573</uuid>
+                  <documentClosureStatus>OPEN</documentClosureStatus>
+                  <closureType>A</closureType>
+                  <closureCode>0</closureCode>
+                  <closurePeriod>0</closurePeriod>
+                  <openingDate>2022-05-05T08:28:46.249Z</openingDate>
+                  <titleClosureStatus>OPEN</titleClosureStatus>
+               </closure>
+            </tna:metadata>
+         </Metadata>
+      </DeliverableUnit>
+      <DeliverableUnit status="same">
+         <DeliverableUnitRef>a510aa7d-cf82-45e0-8f38-58efc553376c</DeliverableUnitRef>
+         <CollectionRef>b6071dec-d9a2-4aba-b8b7-9d1f165793c5</CollectionRef>
+         <AccessionRef>c813f3ea-499d-4b80-b9b2-bff5e4ebf9c0</AccessionRef>
+         <AccumulationRef>121501ef-d9ca-44f1-b35e-1e25d0980ba9</AccumulationRef>
+         <ParentRef>ddd8a628-eecb-4e9c-bd59-d9aaece81573</ParentRef>
+         <DigitalSurrogate>false</DigitalSurrogate>
+         <CatalogueReference>FCO/37/TTD/Z</CatalogueReference>
+         <ScopeAndContent>105</ScopeAndContent>
+         <CoverageFrom>2022-05-05T09:04:17.000+01:00</CoverageFrom>
+         <CoverageTo>2022-05-05T09:04:17.000+01:00</CoverageTo>
+         <Title>105</Title>
+         <TypeRef>1</TypeRef>
+         <SecurityTag>BornDigital</SecurityTag>
+         <Metadata schemaURI="http://nationalarchives.gov.uk/metadata/tna#">
+            <tna:metadata xmlns:tna="http://nationalarchives.gov.uk/metadata/tna#"
+                          xmlns:ead="urn:isbn:1-931666-22-9">
+               <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  <tna:DigitalFolder rdf:about="http://datagov.nationalarchives.gov.uk/66/FCO/37/TTD/Z">
+                     <tna:cataloguing>
+                        <tna:Cataloguing>
+                           <tna:collectionIdentifier rdf:datatype="xs:string">FOCOM</tna:collectionIdentifier>
+                           <tna:batchIdentifier rdf:datatype="xs:string">FCO37Y21HB002</tna:batchIdentifier>
+                           <tna:departmentIdentifier rdf:datatype="xs:string">FCO</tna:departmentIdentifier>
+                           <tna:seriesIdentifier rdf:datatype="xs:string">37</tna:seriesIdentifier>
+                           <tna:pieceIdentifier rdf:datatype="xs:string">TTD</tna:pieceIdentifier>
+                           <tna:parentIdentifier rdf:datatype="xs:string">ddd8a628-eecb-4e9c-bd59-d9aaece81573</tna:parentIdentifier>
+                           <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">105</dcterms:title>
+                           <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/"
+                                            rdf:resource="Foreign_and_Commonwealth_Office"/>
+                           <dcterms:rights xmlns:dcterms="http://purl.org/dc/terms/"
+                                           rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Crown_copyright"/>
+                           <tna:legalStatus rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Public_Record(s)"/>
+                           <tna:heldBy rdf:datatype="xs:string">The National Archives, Kew</tna:heldBy>
+                           <tna:session_date rdf:datatype="xs:string"/>
+                     
+                        
+                        </tna:Cataloguing>
+                  
+                     
+                     </tna:cataloguing>
+                     <tna:digitalFile>
+                        <tna:DigitalFile>
+                           <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/" rdf:datatype="xs:dateTime">2021-12-15T11:01:08</dcterms:modified>
+                           <tna:filePathAndName rdf:datatype="xs:string">FCO%2037/FS/92/P/026/105</tna:filePathAndName>
+                     
+                        
+                        </tna:DigitalFile>
+                  
+                     
+                     </tna:digitalFile>
+               
+                  
+                  </tna:DigitalFolder>
+            
+               
+               </rdf:RDF>
+         
+            
+               <closure xmlns="http://nationalarchives.gov.uk/dri/closure"
+                        resourceType="DeliverableUnit">
+                  <uuid>a510aa7d-cf82-45e0-8f38-58efc553376c</uuid>
+                  <documentClosureStatus>OPEN</documentClosureStatus>
+                  <closureType>A</closureType>
+                  <closureCode>0</closureCode>
+                  <closurePeriod>0</closurePeriod>
+                  <openingDate>2022-05-05T08:28:46.249Z</openingDate>
+                  <titleClosureStatus>OPEN</titleClosureStatus>
+               </closure>
+            </tna:metadata>
+         </Metadata>
+      </DeliverableUnit>
+      <DeliverableUnit status="same">
+         <DeliverableUnitRef>0ae00e7a-65ef-44ee-97ab-87a08cb4e25e</DeliverableUnitRef>
+         <CollectionRef>b6071dec-d9a2-4aba-b8b7-9d1f165793c5</CollectionRef>
+         <AccessionRef>c813f3ea-499d-4b80-b9b2-bff5e4ebf9c0</AccessionRef>
+         <AccumulationRef>121501ef-d9ca-44f1-b35e-1e25d0980ba9</AccumulationRef>
+         <ParentRef>883dc485-4e20-46e0-b79a-57779e7957e0</ParentRef>
+         <DigitalSurrogate>false</DigitalSurrogate>
+         <CatalogueReference>FCO/37/TQN/Z</CatalogueReference>
+         <ScopeAndContent>92</ScopeAndContent>
+         <CoverageFrom>2022-05-05T09:04:16.000+01:00</CoverageFrom>
+         <CoverageTo>2022-05-05T09:04:18.000+01:00</CoverageTo>
+         <Title>92</Title>
+         <TypeRef>1</TypeRef>
+         <SecurityTag>BornDigital</SecurityTag>
+         <Metadata schemaURI="http://nationalarchives.gov.uk/metadata/tna#">
+            <tna:metadata xmlns:tna="http://nationalarchives.gov.uk/metadata/tna#"
+                          xmlns:ead="urn:isbn:1-931666-22-9">
+               <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  <tna:DigitalFolder rdf:about="http://datagov.nationalarchives.gov.uk/66/FCO/37/TQN/Z">
+                     <tna:cataloguing>
+                        <tna:Cataloguing>
+                           <tna:collectionIdentifier rdf:datatype="xs:string">FOCOM</tna:collectionIdentifier>
+                           <tna:batchIdentifier rdf:datatype="xs:string">FCO37Y21HB002</tna:batchIdentifier>
+                           <tna:departmentIdentifier rdf:datatype="xs:string">FCO</tna:departmentIdentifier>
+                           <tna:seriesIdentifier rdf:datatype="xs:string">37</tna:seriesIdentifier>
+                           <tna:pieceIdentifier rdf:datatype="xs:string">TQN</tna:pieceIdentifier>
+                           <tna:parentIdentifier rdf:datatype="xs:string">883dc485-4e20-46e0-b79a-57779e7957e0</tna:parentIdentifier>
+                           <dcterms:title xmlns:dcterms="http://purl.org/dc/terms/">92</dcterms:title>
+                           <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/"
+                                            rdf:resource="Foreign_and_Commonwealth_Office"/>
+                           <dcterms:rights xmlns:dcterms="http://purl.org/dc/terms/"
+                                           rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Crown_copyright"/>
+                           <tna:legalStatus rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Public_Record(s)"/>
+                           <tna:heldBy rdf:datatype="xs:string">The National Archives, Kew</tna:heldBy>
+                           <tna:session_date rdf:datatype="xs:string"/>
+                     
+                        
+                        </tna:Cataloguing>
+                  
+                     
+                     </tna:cataloguing>
+                     <tna:digitalFile>
+                        <tna:DigitalFile>
+                           <dcterms:modified xmlns:dcterms="http://purl.org/dc/terms/" rdf:datatype="xs:dateTime">2021-12-15T11:01:17</dcterms:modified>
+                           <tna:filePathAndName rdf:datatype="xs:string">FCO%2037/FS/92</tna:filePathAndName>
+                     
+                        
+                        </tna:DigitalFile>
+                  
+                     
+                     </tna:digitalFile>
+               
+                  
+                  </tna:DigitalFolder>
+            
+               
+               </rdf:RDF>
+         
+            
+               <closure xmlns="http://nationalarchives.gov.uk/dri/closure"
+                        resourceType="DeliverableUnit">
+                  <uuid>0ae00e7a-65ef-44ee-97ab-87a08cb4e25e</uuid>
+                  <documentClosureStatus>OPEN</documentClosureStatus>
+                  <closureType>A</closureType>
+                  <closureCode>0</closureCode>
+                  <closurePeriod>0</closurePeriod>
+                  <openingDate>2022-05-05T08:28:46.249Z</openingDate>
+                  <titleClosureStatus>OPEN</titleClosureStatus>
+               </closure>
+            </tna:metadata>
+         </Metadata>
+      </DeliverableUnit>
+      <Manifestation status="same">
+         <DeliverableUnitRef>987bf7ed-69e0-4058-ac59-b307ac3bb838</DeliverableUnitRef>
+         <ManifestationRef>122a2d8c-d887-4f05-9589-c03442a001ff</ManifestationRef>
+         <ManifestationRelRef>3</ManifestationRelRef>
+         <Originality>true</Originality>
+         <Active>true</Active>
+         <TypeRef>100</TypeRef>
+         <ComponentManifestation status="same">
+            <ComponentRef>7b6236ec-37f1-4d0f-b3aa-33d653933da4</ComponentRef>
+            <ComponentManifestationRef>28cd0588-cd4d-4071-8e3f-fa6f49574c27</ComponentManifestationRef>
+            <ComponentType>Document</ComponentType>
+            <ComponentManifestationType>PDF</ComponentManifestationType>
+            <MasterFileRef>6779ff71-46ab-486a-a47b-1f8d22de0402</MasterFileRef>
+            <FileRef>6779ff71-46ab-486a-a47b-1f8d22de0402</FileRef>
+         </ComponentManifestation>
+         <ManifestationFile status="same">
+            <FileRef>6779ff71-46ab-486a-a47b-1f8d22de0402</FileRef>
+            <Path>FCO 37/FS/92/P/026/105/FCO37-FSP026.105.92</Path>
+         </ManifestationFile>
+         <GroupRef>581be25e-09b2-4964-8d3c-dc4887508747</GroupRef>
+      </Manifestation>
+      <Manifestation status="same">
+         <DeliverableUnitRef>987bf7ed-69e0-4058-ac59-b307ac3bb838</DeliverableUnitRef>
+         <ManifestationRef>7ee73a25-9d3e-4537-9a89-2d612d44499f</ManifestationRef>
+         <ManifestationRelRef>1</ManifestationRelRef>
+         <Originality>true</Originality>
+         <Active>true</Active>
+         <TypeRef>1</TypeRef>
+         <ManifestationFile status="same">
+            <FileRef>7166938c-00d3-470e-9fc6-eb1696637c9f</FileRef>
+            <Path>FCO 37/FS/92/P/026/105/FCO37-FSP026.105.92</Path>
+         </ManifestationFile>
+         <GroupRef>f4cb548a-4c06-4f18-81d1-dd5d8ffc2b62</GroupRef>
+      </Manifestation>
+      <Manifestation status="same">
+         <DeliverableUnitRef>987bf7ed-69e0-4058-ac59-b307ac3bb838</DeliverableUnitRef>
+         <ManifestationRef>82f0b3b3-572c-49db-9305-426324e06ae4</ManifestationRef>
+         <ManifestationRelRef>2</ManifestationRelRef>
+         <Originality>true</Originality>
+         <Active>true</Active>
+         <TypeRef>100</TypeRef>
+         <ComponentManifestation status="same">
+            <ComponentRef>b8eb761d-c530-4447-af41-52fca8ec02fe</ComponentRef>
+            <ComponentManifestationRef>94cb9148-5828-4eb1-9093-f33644cf3547</ComponentManifestationRef>
+            <ComponentType>Document</ComponentType>
+            <ComponentManifestationType>PDF</ComponentManifestationType>
+            <MasterFileRef>8e6bf928-f67a-479c-8205-de71bd88f72c</MasterFileRef>
+            <FileRef>8e6bf928-f67a-479c-8205-de71bd88f72c</FileRef>
+         </ComponentManifestation>
+         <ManifestationFile status="same">
+            <FileRef>8e6bf928-f67a-479c-8205-de71bd88f72c</FileRef>
+            <Path>FCO 37/FS/92/P/026/105/FCO37-FSP026.105.92</Path>
+         </ManifestationFile>
+         <GroupRef>fb0945b7-b0ab-411e-a849-00bff64f90b0</GroupRef>
+      </Manifestation>
+   </DeliverableUnits>
+   <Files>
+      <File status="same">
+         <FileRef>6779ff71-46ab-486a-a47b-1f8d22de0402</FileRef>
+         <IngestedFileSetRef>cbd51929-b075-40ba-8f11-cbeca624ca68</IngestedFileSetRef>
+         <FileName>FCO37-FSP026.105.92-M0035934_R2.pdf</FileName>
+         <Extant>false</Extant>
+         <Directory>false</Directory>
+         <Metadata schemaURI="http://nationalarchives.gov.uk/metadata/tna#">
+            <tna:metadata xmlns:tna="http://nationalarchives.gov.uk/metadata/tna#">
+               <closure xmlns="http://nationalarchives.gov.uk/dri/closure" resourceType="File">
+                  <uuid>6779ff71-46ab-486a-a47b-1f8d22de0402</uuid>
+                  <documentClosureStatus>CLOSED</documentClosureStatus>
+                  <closureType>F</closureType>
+                  <closureCode>61</closureCode>
+                  <closurePeriod>61</closurePeriod>
+                  <openingDate>2053-10-27T23:00:00Z</openingDate>
+                  <startDate>1992-10-26T23:00:00Z</startDate>
+                  <exemptionCode>27(1)</exemptionCode>
+                  <exemptionAsserted>2021-05-31T00:00:00</exemptionAsserted>
+                  <titleClosureStatus>OPEN</titleClosureStatus>
+               </closure>
+            </tna:metadata>
+         </Metadata>
+         <FileSize>89587</FileSize>
+         <LastModifiedDate>2022-05-05T09:04:17.000Z</LastModifiedDate>
+         <FixityInfo>
+            <FixityAlgorithmRef>1</FixityAlgorithmRef>
+            <FixityValue>0e190cd2612c77e95728a80c914d158f</FixityValue>
+         </FixityInfo>
+         <FormatInfo>
+            <FormatPUID>fmt/18</FormatPUID>
+            <FormatName>Acrobat PDF 1.4 - Portable Document Format</FormatName>
+            <FormatVersion>1.4</FormatVersion>
+            <Valid>true</Valid>
+         </FormatInfo>
+         <WorkingPath>FCO 37</WorkingPath>
+      </File>
+      <File status="same">
+         <FileRef>8e6bf928-f67a-479c-8205-de71bd88f72c</FileRef>
+         <IngestedFileSetRef>cbd51929-b075-40ba-8f11-cbeca624ca68</IngestedFileSetRef>
+         <FileName>FCO37-FSP026.105.92-M0035934_R1.pdf</FileName>
+         <Extant>true</Extant>
+         <Directory>false</Directory>
+         <Metadata schemaURI="http://nationalarchives.gov.uk/metadata/tna#">
+            <tna:metadata xmlns:tna="http://nationalarchives.gov.uk/metadata/tna#">
+               <closure xmlns="http://nationalarchives.gov.uk/dri/closure" resourceType="File">
+                  <uuid>8e6bf928-f67a-479c-8205-de71bd88f72c</uuid>
+                  <documentClosureStatus>OPEN</documentClosureStatus>
+                  <closureType>A</closureType>
+                  <closureCode>0</closureCode>
+                  <closurePeriod>0</closurePeriod>
+                  <openingDate>2022-05-05T08:28:46.249Z</openingDate>
+                  <titleClosureStatus>OPEN</titleClosureStatus>
+               </closure>
+            </tna:metadata>
+         </Metadata>
+         <FileSize>89421</FileSize>
+         <LastModifiedDate>2022-05-05T09:04:17.000Z</LastModifiedDate>
+         <FixityInfo>
+            <FixityAlgorithmRef>1</FixityAlgorithmRef>
+            <FixityValue>8ab830630e880cbdfbf83899ef2a9b9c</FixityValue>
+         </FixityInfo>
+         <FormatInfo>
+            <FormatPUID>fmt/18</FormatPUID>
+            <FormatName>Acrobat PDF 1.4 - Portable Document Format</FormatName>
+            <FormatVersion>1.4</FormatVersion>
+            <Valid>true</Valid>
+         </FormatInfo>
+         <WorkingPath>FCO 37/FS/92/P/026/105/FCO37-FSP026.105.92</WorkingPath>
+      </File>
+      <File status="same">
+         <FileRef>7166938c-00d3-470e-9fc6-eb1696637c9f</FileRef>
+         <IngestedFileSetRef>cbd51929-b075-40ba-8f11-cbeca624ca68</IngestedFileSetRef>
+         <FileName>FCO37-FSP026.105.92-M0035934.doc</FileName>
+         <Extant>false</Extant>
+         <Directory>false</Directory>
+         <Metadata schemaURI="http://nationalarchives.gov.uk/metadata/tna#">
+            <tna:metadata xmlns:tna="http://nationalarchives.gov.uk/metadata/tna#">
+               <closure xmlns="http://nationalarchives.gov.uk/dri/closure" resourceType="File">
+                  <uuid>7166938c-00d3-470e-9fc6-eb1696637c9f</uuid>
+                  <documentClosureStatus>CLOSED</documentClosureStatus>
+                  <closureType>S</closureType>
+                  <closureCode/>
+                  <titleClosureStatus>OPEN</titleClosureStatus>
+                  <retentionJustification>6</retentionJustification>
+                  <retentionReconsiderDate>2031-12-31T00:00:00</retentionReconsiderDate>
+                  <RINumber>106</RINumber>
+               </closure>
+            </tna:metadata>
+         </Metadata>
+         <FileSize>888</FileSize>
+         <LastModifiedDate>1992-10-26T23:00:00.000Z</LastModifiedDate>
+         <FixityInfo>
+            <FixityAlgorithmRef>3</FixityAlgorithmRef>
+            <FixityValue>999</FixityValue>
+         </FixityInfo>
+         <WorkingPath>FCO 37/FS/92/P/026/105/FCO37-FSP026.105.92</WorkingPath>
+      </File>
+   </Files>
+   <IngestedFileSets>
+      <IngestedFileSet status="same">
+         <IngestedFileSetRef>cbd51929-b075-40ba-8f11-cbeca624ca68</IngestedFileSetRef>
+         <IngestedFileSetTypeRef>1</IngestedFileSetTypeRef>
+         <AccessionRef>c813f3ea-499d-4b80-b9b2-bff5e4ebf9c0</AccessionRef>
+      </IngestedFileSet>
+   </IngestedFileSets>
+</XIP>

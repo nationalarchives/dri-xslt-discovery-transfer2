@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified"
+    xmlns="http://nationalarchives.gov.uk/dri/export"
+    xmlns:e="http://nationalarchives.gov.uk/dri/export"
+    targetNamespace="http://nationalarchives.gov.uk/dri/export">
+    
+    <xs:element name="status" type="statusType"/>
+    
+    <xs:complexType name="statusType">
+        <xs:sequence>
+            <xs:choice>
+                <xs:element ref="reports"/>
+                <xs:element ref="report"/>
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:element name="reports" type="reportsType"/>
+    
+    <xs:complexType name="reportsType">
+        <xs:sequence>
+            <xs:element ref="report" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:element name="report" type="reportType"/>
+    
+    <xs:complexType name="reportType">
+        <xs:sequence>
+            <xs:element ref="subject"/>
+            <xs:element ref="state"/>
+            <xs:element ref="processed"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:element name="subject" type="subjectType"/>
+    
+    <xs:complexType name="subjectType">
+        <xs:sequence>
+            <xs:element ref="transferid"/>
+            <xs:element ref="uuid"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:element name="transferid" type="xs:string"/>
+    
+    <xs:element name="uuid" type="uuidType"/>
+    
+    <xs:simpleType name="uuidType">
+        <xs:annotation>
+            <xs:documentation>v4 UUID</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:element name="state" type="stateType"/>
+    
+    <xs:complexType name="stateType">
+        <xs:sequence>
+            <xs:element ref="result"/>
+            <xs:element ref="description" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:element name="description" type="descriptionType"/>
+    
+    <xs:simpleType name="descriptionType">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+    
+    <xs:element name="result" type="resultType"/>
+        
+    <xs:simpleType name="resultType">
+        <xs:restriction base="xs:NCName">
+            <xs:enumeration value="PASSED"/>
+            <xs:enumeration value="FAILED"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:element name="processed" type="xs:dateTime"/>
+    
+</xs:schema>
