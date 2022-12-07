@@ -49,6 +49,6 @@ Feature: Redaction accruals export require the redacted files to be moved from t
       | //InformationAsset[IAID = '987bf7ed-69e0-4058-ac59-b307ac3bb838_1']/RelatedMaterials/RelatedMaterial/IAID        | 987bf7ed-69e0-4058-ac59-b307ac3bb838        |
       | //InformationAsset[IAID = '987bf7ed-69e0-4058-ac59-b307ac3bb838_2']/RelatedMaterials/RelatedMaterial/Description | This is a redacted record. The full record is retained. To make a Freedom of Information request for the full record contact the creating department. |
       | //InformationAsset[IAID = '987bf7ed-69e0-4058-ac59-b307ac3bb838_2']/RelatedMaterials/RelatedMaterial/IAID        | 987bf7ed-69e0-4058-ac59-b307ac3bb838        |
-#    And I perform schema validation with bia.xsd on biaRedactedFields.xml
+    And I perform schema validation with bia.xsd on biaRedactedFields.xml
 
 
