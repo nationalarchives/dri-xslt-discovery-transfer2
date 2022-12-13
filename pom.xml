@@ -194,8 +194,21 @@
             <groupId>com.github.scala-incubator.io</groupId>
             <artifactId>scala-io-file_2.11</artifactId>
             <version>0.4.3</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.scala-lang.modules</groupId>
+                    <artifactId>scala-parser-combinators_2.11</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
-<!--        <dependency>-->
+        <dependency>
+            <groupId>org.scala-lang.modules</groupId>
+            <artifactId>scala-parser-combinators_2.11</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+
+
+        <!--        <dependency>-->
 <!--            <groupId>net.sf.saxon</groupId>-->
 <!--            <artifactId>Saxon-HE</artifactId>-->
 <!--            <version>${saxon-HE-version}</version>-->
