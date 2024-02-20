@@ -54,7 +54,7 @@
                            <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/"
                                             rdf:resource="Foreign_and_Commonwealth_Office"/>
                            <dcterms:rights xmlns:dcterms="http://purl.org/dc/terms/"
-                                           rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Crown_copyright"/>
+                                           rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Crown_copyright_and_third_party_copyright_material"/>
                            <tna:legalStatus rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Public_Record(s)"/>
                            <tna:heldBy rdf:datatype="xs:string">The National Archives, Kew</tna:heldBy>
                            <tna:session_date rdf:datatype="xs:string"/>
@@ -124,7 +124,7 @@
                            <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/"
                                             rdf:resource="Foreign_and_Commonwealth_Office"/>
                            <dcterms:rights xmlns:dcterms="http://purl.org/dc/terms/"
-                                           rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Crown_copyright"/>
+                                           rdf:resource="http://datagov.nationalarchives.gov.uk/resource/XML_London"/>
                            <tna:legalStatus rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Public_Record(s)"/>
                            <tna:heldBy rdf:datatype="xs:string">The National Archives, Kew</tna:heldBy>
                            <tna:session_date rdf:datatype="xs:string"/>
@@ -268,7 +268,7 @@
                            <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/"
                                             rdf:resource="Foreign_and_Commonwealth_Office"/>
                            <dcterms:rights xmlns:dcterms="http://purl.org/dc/terms/"
-                                           rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Crown_copyright"/>
+                                           rdf:resource="http://datagov.nationalarchives.gov.uk/resource/XML_London">Crown Copyright</dcterms:rights>
                            <tna:legalStatus rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Public_Record(s)"/>
                            <tna:heldBy rdf:datatype="xs:string">The National Archives, Kew</tna:heldBy>
                            <tna:session_date rdf:datatype="xs:string"/>
@@ -343,7 +343,7 @@
                            <dcterms:creator xmlns:dcterms="http://purl.org/dc/terms/"
                                             rdf:resource="Foreign_and_Commonwealth_Office"/>
                           <dcterms:rights xmlns:dcterms="http://purl.org/dc/terms/"
-                                           rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Crown_copyright"/>
+                                          rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Acme_Limited">Hello Crown World</dcterms:rights>
                            <tna:legalStatus rdf:resource="http://datagov.nationalarchives.gov.uk/resource/Public_Record(s)"/>
                            <tna:heldBy rdf:datatype="xs:string">The National Archives, Kew</tna:heldBy>
                            <tna:relatedMaterial rdf:datatype="xs:string">FCO 37/AA1</tna:relatedMaterial>

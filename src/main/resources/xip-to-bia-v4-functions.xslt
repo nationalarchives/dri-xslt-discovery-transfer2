@@ -596,10 +596,10 @@
             <xsl:value-of select="string-join($restrictions, '')"></xsl:value-of>
         </xsl:variable>
         <xsl:choose>
-            <xsl:when test="contains($restrictionsAttributesJoined, 'Crown')">
+            <xsl:when test="lower-case(normalize-space($restrictionsAttributesJoined)) = 'http://datagov.nationalarchives.gov.uk/resource/crown_copyright'">
                 <xsl:value-of select="false()"/>
             </xsl:when>
-            <xsl:when test="contains($restrictionsJoined, 'Crown')">
+            <xsl:when test="lower-case(normalize-space($restrictionsJoined)) = 'crown copyright'">
                 <xsl:value-of select="false()"/>
             </xsl:when>
             <xsl:otherwise>

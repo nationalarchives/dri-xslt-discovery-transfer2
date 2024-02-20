@@ -35,7 +35,7 @@ Feature: Related Materials. Records can have redactions and relatedMaterial in t
        | count(//RelatedMaterials)                                                                                        | 4                         |
        | //InformationAsset[IAID = 'c9ba425e-2806-49d0-8d1a-0898e8435ba5']/RelatedMaterials/RelatedMaterial/Description   | FCO 37/AA1                |
        | count(//InformationAsset[IAID = 'c9ba425e-2806-49d0-8d1a-0898e8435ba5']/RelatedMaterials/RelatedMaterial)        | 1                         |
-       | count(//InformationAsset[IAID = 'c9ba425e-2806-49d0-8d1a-0898e8435ba5']/*)                                       | 23                        |
+       | count(//InformationAsset[IAID = 'c9ba425e-2806-49d0-8d1a-0898e8435ba5']/*)                                       | 24                        |
        | //InformationAsset[IAID = '987bf7ed-69e0-4058-ac59-b307ac3bb838']/RelatedMaterials/RelatedMaterial/Description   | FCO 37/6258, FCO 37/6259  |
        | count(//InformationAsset[IAID = '987bf7ed-69e0-4058-ac59-b307ac3bb838']/RelatedMaterials/RelatedMaterial)        | 1                         |
        | count(//InformationAsset[IAID = '987bf7ed-69e0-4058-ac59-b307ac3bb838']/*)                                       | 24                        |
@@ -77,7 +77,7 @@ Feature: Related Materials. Records can have redactions and relatedMaterial in t
       | count(//InformationAsset[IAID = '987bf7ed-69e0-4058-ac59-b307ac3bb838']/*)                                                                                                            | 24          |
       # RelatedMaterials now added to ce9e70828a2a (count +1)
       | count(//InformationAsset[IAID = 'b6581e9f-655a-4205-a673-ce9e70828a2a']/*)                                                                                                            | 24          |
-      | count(//InformationAsset[IAID = 'c9ba425e-2806-49d0-8d1a-0898e8435ba5']/*)                                                                                                            | 23          |
+      | count(//InformationAsset[IAID = 'c9ba425e-2806-49d0-8d1a-0898e8435ba5']/*)                                                                                                            | 24          |
       | count(//InformationAsset[IAID = '987bf7ed-69e0-4058-ac59-b307ac3bb838_2']/RelatedMaterials/RelatedMaterial)                                                                           | 2           |
       | count(//InformationAsset[IAID = '987bf7ed-69e0-4058-ac59-b307ac3bb838_2']/RelatedMaterials/RelatedMaterial/Description[ . = 'This is a redacted record. The full record is retained. To make a Freedom of Information request for the full record contact the creating department.']) | 1 |
       | //InformationAsset[IAID = '987bf7ed-69e0-4058-ac59-b307ac3bb838_2']/RelatedMaterials/RelatedMaterial/IAID        | 987bf7ed-69e0-4058-ac59-b307ac3bb838        |
